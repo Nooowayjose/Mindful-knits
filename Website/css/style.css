@@ -1,4 +1,4 @@
-/* Color Scheme Reference
+blog/* Color Scheme Reference
 
 1. yellowgreen-ish: #D2E0AA
 2. olive/olivedrab green?: #658B3C
@@ -753,30 +753,30 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Call To Action Section
 --------------------------------*/
-#call-to-action {
+#blog {
 
   background:linear-gradient(
       rgba(78, 110, 130, 0.55),
       rgba(78, 110, 130, 0.55)
-    ),url(../img/doggoBG.jpg) fixed center center;
+      ),url(../img/doggoBG.jpg) fixed center center;
   background-size: cover;
-
-  padding: 60px 0;
+  padding: 80px 20px;
 }
 
 
 
-#call-to-action h3 {
+#blog h3 {
   color: #111;
   font-size: 28px;
   font-weight: 700;
 }
 
-#call-to-action p {
+#blog p {
+  font-size: 30px;
   color: #EDF2E3;
 }
 
-#call-to-action .cta-btn {
+#blog .cta-btn {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -791,7 +791,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #EDF2E3;
 }
 
-#call-to-action .cta-btn:hover {
+#blog .cta-btn:hover {
   background: #D2E0AA;
   border: 2px solid #D2E0AA;
 }
@@ -873,20 +873,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 30px;
 }
 
-/* Portfolio Section
+/* products Section
 --------------------------------*/
-#portfolio {
+#products {
   padding: 60px 0;
 }
 
-#portfolio #portfolio-flters {
+#products #products-flters {
   padding: 0;
   margin: 5px 0 35px 0;
   list-style: none;
   text-align: center;
 }
 
-#portfolio #portfolio-flters li {
+#products #products-flters li {
   cursor: pointer;
   margin: 15px 15px 15px 0;
   display: inline-block;
@@ -901,31 +901,31 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
+#products #products-flters li:hover, #products #products-flters li.filter-active {
   background: #fff;
   color: #EDF2E3;
 }
 
-#portfolio #portfolio-flters li:last-child {
+#products #products-flters li:last-child {
   margin-right: 0;
 }
 
-#portfolio .portfolio-wrap {
+#products .products-wrap {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
 }
 
-#portfolio .portfolio-wrap:hover {
+#products .products-wrap:hover {
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
 }
 
-#portfolio .portfolio-item {
+#products .products-item {
   position: relative;
   height: 360px;
   overflow: hidden;
 }
 
-#portfolio .portfolio-item figure {
+#products .products-item figure {
   background: #000;
   overflow: hidden;
   height: 240px;
@@ -934,12 +934,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0;
 }
 
-#portfolio .portfolio-item figure:hover img {
+#products .products-item figure:hover img {
   opacity: 0.4;
   transition: 0.3s;
 }
 
-#portfolio .portfolio-item figure .link-preview, #portfolio .portfolio-item figure .link-details {
+#products .products-item figure .link-preview, #products .products-item figure .link-details {
   position: absolute;
   display: inline-block;
   opacity: 0;
@@ -952,41 +952,41 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.2s linear;
 }
 
-#portfolio .portfolio-item figure .link-preview i, #portfolio .portfolio-item figure .link-details i {
+#products .products-item figure .link-preview i, #products .products-item figure .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #333;
 }
 
-#portfolio .portfolio-item figure .link-preview:hover, #portfolio .portfolio-item figure .link-details:hover {
+#products .products-item figure .link-preview:hover, #products .products-item figure .link-details:hover {
   background: #D2E0AA;
 }
 
-#portfolio .portfolio-item figure .link-preview:hover i, #portfolio .portfolio-item figure .link-details:hover i {
+#products .products-item figure .link-preview:hover i, #products .products-item figure .link-details:hover i {
   color: #EDF2E3;
 }
 
-#portfolio .portfolio-item figure .link-preview {
+#products .products-item figure .link-preview {
   left: calc(50% - 38px);
   top: calc(50% - 18px);
 }
 
-#portfolio .portfolio-item figure .link-details {
+#products .products-item figure .link-details {
   right: calc(50% - 38px);
   top: calc(50% - 18px);
 }
 
-#portfolio .portfolio-item figure:hover .link-preview {
+#products .products-item figure:hover .link-preview {
   opacity: 1;
   left: calc(50% - 44px);
 }
 
-#portfolio .portfolio-item figure:hover .link-details {
+#products .products-item figure:hover .link-details {
   opacity: 1;
   right: calc(50% - 44px);
 }
 
-#portfolio .portfolio-item .portfolio-info {
+#products .products-item .products-info {
   background: #fff;
   text-align: center;
   padding: 30px;
@@ -994,7 +994,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0 0 3px 3px;
 }
 
-#portfolio .portfolio-item .portfolio-info h4 {
+#products .products-item .products-info h4 {
   font-size: 18px;
   line-height: 1px;
   font-weight: 700;
@@ -1002,15 +1002,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 0;
 }
 
-#portfolio .portfolio-item .portfolio-info h4 a {
+#products .products-item .products-info h4 a {
   color: #333;
 }
 
-#portfolio .portfolio-item .portfolio-info h4 a:hover {
+#products .products-item .products-info h4 a:hover {
   color: #D2E0AA;
 }
 
-#portfolio .portfolio-item .portfolio-info p {
+#products .products-item .products-info p {
   padding: 0;
   margin: 0;
   color: #b8b8b8;

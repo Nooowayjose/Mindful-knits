@@ -804,7 +804,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     background:linear-gradient(
         rgba(78, 110, 130, 0.55),
         rgba(78, 110, 130, 0.55)
-        ),url(../img/doggoBG.jpg) auto;
+        ),url(../img/doggoBG.jpg) fixed center center;
     background-size: 1050px 1050px center;
     padding: 80px 20px;
   }
@@ -813,8 +813,8 @@ body.mobile-nav-active #mobile-nav-toggle {
       background:linear-gradient(
           rgba(78, 110, 130, 0.55),
           rgba(78, 110, 130, 0.55)
-          ),url(../img/doggoBG.jpg) auto;
-      background-size: 780px 600px;
+          ),url(../img/doggoBG.jpg) fixed center center;
+      background-size: 780px 600px center;
       padding: 70px 20px;
     }
   }

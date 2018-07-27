@@ -814,7 +814,7 @@ body.mobile-nav-active #mobile-nav-toggle {
           rgba(78, 110, 130, 0.55),
           rgba(78, 110, 130, 0.55)
           ),url(../img/doggoBG.jpg) auto;
-      background-size: 900px 900px center;
+      background-size: 10em center;
       padding: 70px 20px;
     }
   }

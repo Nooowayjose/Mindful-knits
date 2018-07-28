@@ -758,7 +758,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background:linear-gradient(
       rgba(78, 110, 130, 0.55),
       rgba(78, 110, 130, 0.55)
-      ),url(../img/doggoBG.jpg) fixed center center;
+      ),url(../img/blogBG.jpg) fixed center center;
   background-size: cover;
   padding: 80px 20px;
 }
@@ -804,7 +804,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     background:linear-gradient(
         rgba(78, 110, 130, 0.55),
         rgba(78, 110, 130, 0.55)
-        ),url(../img/doggoBG.jpg) auto no-repeat;
+        ),url(../img/blogBG.jpg) auto no-repeat;
     background-size: 1050px 1050px center;
     padding: 80px 20px;
   }
@@ -813,7 +813,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       background:linear-gradient(
           rgba(78, 110, 130, 0.55),
           rgba(78, 110, 130, 0.55)
-          ),url(../img/doggoBG.jpg) auto no-repeat;
+          ),url(../img/blogBG.jpg) auto no-repeat;
       background-size: 770px 500px;
       padding: 70px 20px;
     }
